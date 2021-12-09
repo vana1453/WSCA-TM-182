@@ -1,0 +1,34 @@
+@font-face {
+    font-family:'unicode2';
+    src:url(./fonts/Uni\ Ila.Sundaram-02.ttf );
+    font-weight: normal;
+    font-style: italic;
+    }
+    
+    @font-face {
+    font-family:'unicode';
+    src: url(./fonts/BalooThambi2-Regular.ttf);
+    font-weight: normal;
+    font-style: italic;
+    }
+    @font-face {
+    font-family:'unicode3';
+    src:url(./fonts/BalooThambi2-Medium.ttf);
+    font-weight: normal;
+    font-style: italic;
+    }
+    
+    html.wf-loading * {
+       
+        opacity: 0;
+    }
+    
+    
+    *{
+    padding:0;
+    margin:0 auto;
+    }
+
+
+
+

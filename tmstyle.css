@@ -1,0 +1,273 @@
+@font-face {
+font-family:'unicode2';
+src:url(./fonts/Uni\ Ila.Sundaram-02.ttf );
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family:'unicode';
+src: url(./fonts/BalooThambi2-Regular.ttf) format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family:'unicode3';
+src:url(./fonts/BalooThambi2-Medium.ttf);
+font-weight: normal;
+font-style: italic;
+}
+
+html.wf-loading * {
+   
+    opacity: 0;
+}
+
+
+*{
+padding:0;
+margin:0 auto;
+}
+
+body {
+/* background-color: rgb(170, 205, 219); */
+background-size: 100px;
+background-repeat: no-repeat;
+
+font-size: 22px;
+}
+
+h1 {
+/* font-family: 'unicode'; */
+text-align: center;
+color: black;
+margin-bottom: 20px;
+font-size: 32px;
+padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    /* font-family: 'unicode'; */
+    /* font-size: 14px; */
+    font: .85em sans-serif;
+    line-height: 1px;
+}
+a {
+
+font-family: 'unicode';
+}
+ul {
+list-style: none;
+background-color: orange;  /* ul backroun d and ul li ba */
+overflow: hidden;  /* once you add float left, the overf  */
+position:sticky;
+top:0px;
+}
+
+ul li {
+background-color:orange ;
+/* display: inline; */
+float: left;
+line-height: 58px;   /* this will make the purple horizo was 40px orginal */
+/* border-right: 3px solid white; */
+}
+
+ul li a {
+color: white;
+text-decoration: none;
+padding: 10px;
+
+}
+
+.right {
+float:right;
+border-right: none;  /* this will remove the help menu r */
+}
+
+li a:hover:not(.active) {
+background-color:yellow;
+color: orange;
+border-radius: .6em .6em .6em .6em;
+
+}
+
+ul > li.active {
+background-color: beige;
+}
+
+.container {
+width:1080px;
+padding:2px 14px;
+
+/* margin-top: 80px; */
+}
+
+.stg1 {
+    white-space: pre;
+    font-family: 'unicode';
+}
+
+.final {
+    white-space: pre;
+    font-family: 'unicode';
+}
+
+h1 {
+font-family: 'unicode2';
+}
+.pre {
+white-space: pre;
+font-family: 'unicode';
+}
+
+.wsca {
+white-space: pre;
+font-family: 'unicode';
+}
+
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-family: 'unicode';
+color: maroon;
+font-size: 22px;
+}
+
+.wsca a {
+    text-decoration: none;
+}
+
+a:active {
+    background-color: darkolivegreen;
+}
+
+
+
+footer {
+    font-family: 'unicode';
+    padding-top: 10px;
+    text-align: center;
+    color: brown;
+    padding-bottom: 30px;
+}
+
+html {
+    width: 1080px;
+   background-color:white;
+    
+}
+
+.container a {
+    text-decoration: none;
+    font-family: 'unicode';
+}
+
+.specialevent {
+    width: 500px;
+    background-color: whitesmoke;
+    margin-bottom: 20px; 
+    border-radius: .6em;  
+    
+
+}
+
+.heading2 {
+    color: maroon;
+}
+.venu {
+    font-family: "unicode";
+    white-space: pre;
+    outline: 2px solid green ;
+    border-radius: .6em;
+    background-color: rgba(231, 218, 211, 0.562);
+    
+}
+.part2 {
+    font-family: 'unicode';
+    white-space: pre;
+}
+.wscalogo {
+    background-image: url(./images/tamil-logo.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    
+}
+.wscalogo > .wscalogoright {
+    background-image: url(./images/english-logo.png);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    
+
+}
+
+/* div.myscript {
+    margin-top: 30px;
+}
+.myscript  > textarea {
+    font-family: "unicode";
+    font-size: 18px;
+    padding-top: 5px;
+    float: left;
+    
+    
+} */
+
+/* this is the style for left and wright box to make two pathikam as default, tested on 27th Nove 2021  */
+.boxleft > textarea {
+    font-family: 'unicode';
+    float: left;
+    font-size: 18px;
+    width: 500px;
+    border-radius: .3em;
+    background-color: rgb(221, 232, 236);
+}
+.boxright > textarea {
+    font-family: 'unicode';
+    float: right;
+    font-size: 18px;
+    width: 540px;
+    padding-left: 20px;
+    border-radius: .3em;
+    background-color: rgb(185, 223, 238);
+}
+
+
+/* this is the style for left and wright box to make two pathikam as default  */
+.history {   
+margin-top: 20px;
+font-family: 'unicode';
+white-space: pre-line;
+font-size: 18px;
+
+}
+    
+  .kanthapuranam > textarea {
+      padding-top: 10px;
+      position: -webkit-sticky;
+      font-family: 'unicode';
+      font-size: 22px;
+      /* padding: auto; */
+      border-radius: .6em;
+      background-color: rgb(11, 104, 11);
+      color: white;
+  }
+
+  .kaappu {
+      white-space: pre;
+      font-family: 'unicode';
+  }
+ /* .kanthapuranam {
+     margin-left: 10px;
+     white-space: pre;
+     font-family: 'unicode';
+     font-size: 18px;
+     margin-left: 20px;
+ }    */
+  
+    
